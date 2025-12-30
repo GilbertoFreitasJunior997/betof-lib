@@ -103,7 +103,7 @@
 			},
 			"correctness": {
 				"recommended": true,
-				"noChildrenProp": "error",
+				"noChildrenProp": "off",
 				"noConstAssign": "error",
 				"noConstantCondition": "error",
 				"noConstantMathMinMaxClamp": "error",

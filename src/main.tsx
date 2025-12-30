@@ -5,6 +5,7 @@ import { QueryProvider } from './components/query-provider';
 import { getQueryContext } from './components/query-provider/utils';
 import { routeTree } from './routeTree.gen';
 import './styles.css';
+import { Toaster } from './components/toaster';
 
 const queryContext = getQueryContext();
 const router = createRouter({
@@ -28,6 +29,7 @@ if (rootElement && !rootElement.innerHTML) {
 	root.render(
 		<StrictMode>
 			<QueryProvider {...queryContext}>
+				<Toaster />
 				<RouterProvider router={router} />
 			</QueryProvider>
 		</StrictMode>,

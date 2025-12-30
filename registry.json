@@ -1,0 +1,67 @@
+{
+	"$schema": "https://ui.shadcn.com/schema/registry.json",
+	"name": "betof",
+	"homepage": "https://example.com",
+	"items": [
+		{
+			"name": "button",
+			"type": "registry:component",
+			"title": "Button",
+			"description": "Button component.",
+			"dependencies": [
+				"@radix-ui/react-slot",
+				"class-variance-authority",
+				"clsx",
+				"tailwind-merge"
+			],
+			"files": [
+				{
+					"path": "src/components/button/index.tsx",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/components/button/consts.ts",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/components/button/types.ts",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/lib/utils/cn/index.ts",
+					"type": "registry:lib"
+				}
+			]
+		},
+		{
+			"name": "badge",
+			"type": "registry:component",
+			"title": "Badge",
+			"description": "Badge component.",
+			"dependencies": [
+				"@radix-ui/react-slot",
+				"class-variance-authority",
+				"clsx",
+				"tailwind-merge"
+			],
+			"files": [
+				{
+					"path": "src/components/badge/index.tsx",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/components/badge/const.ts",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/components/badge/types.ts",
+					"type": "registry:component"
+				},
+				{
+					"path": "src/lib/utils/cn/index.ts",
+					"type": "registry:lib"
+				}
+			]
+		}
+	]
+}
